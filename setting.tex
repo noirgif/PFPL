@@ -1,8 +1,8 @@
 
-\ctexset{
-chapter/format  += \raggedright,
-section/format  += \raggedright,
-}
+%\ctexset{
+%chapter/format  += \raggedright,
+%section/format  += \raggedright,
+%}
 
 \usepackage{import}              % import and subimport
 \usepackage{stmaryrd}            % more math symbols
@@ -11,6 +11,9 @@ section/format  += \raggedright,
 \usepackage{amsfonts}            % ams fonts
 \usepackage{amssymb}             % amsmath
 \usepackage{amsthm}              % theorem environment
+\usepackage{xeCJK}
+\usepackage{fontspec}
+\setCJKmainfont{Microsoft YaHei}
 \newtheorem{theorem}{{定理}}[chapter]
 \newtheorem{lemma}{{引理}}[chapter]
 \newtheorem{corollary}{{推论}}[chapter]
